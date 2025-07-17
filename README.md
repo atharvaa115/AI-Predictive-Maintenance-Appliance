@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project focuses on developing an AI-powered system for predictive maintenance of domestic or industrial appliances. The primary goal is to shift from reactive (fix-when-broken) to proactive (predict-and-prevent) maintenance strategies, thereby minimizing downtime, reducing repair costs, and extending appliance lifespan.
+This project focuses on developing an an AI-powered system for predictive maintenance of domestic or industrial appliances. The primary goal is to shift from reactive (fix-when-broken) to proactive (predict-and-prevent) maintenance strategies, thereby minimizing downtime, reducing repair costs, and extending appliance lifespan.
 
 The system leverages anomaly detection techniques on sensor data to identify early signs of potential equipment failure.
 
@@ -20,7 +20,7 @@ This project addresses these challenges by enabling early detection of anomalies
 
 Our system proposes an edge-AI driven approach:
 1.  **Data Acquisition:** Real-time sensor data (e.g., vibration, temperature) is collected from appliances using an embedded module (e.g., ESP32 with relevant sensors).
-2.  **On-Device Preprocessing:** Raw data is filtered and key features are extracted on the embedded device.
+2.  **Data Preprocessing (On-Device):** Raw data is filtered and key features are extracted on the embedded device.
 3.  **Edge AI Anomaly Detection:** A lightweight, unsupervised machine learning model (Isolation Forest) is deployed directly on the embedded device to analyze data in real-time.
 4.  **Alerting:** Anomalies detected trigger immediate alerts, enabling proactive maintenance.
 
